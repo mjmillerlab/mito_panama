@@ -1,0 +1,79 @@
+
+
+-----------------------------------------------
+NOVOPlasty: The Organelle Assembler
+Version 3.4
+Author: Nicolas Dierckxsens, (c) 2015-2019
+-----------------------------------------------
+
+
+Input parameters from the configuration file:   *** Verify if everything is correct ***
+
+Project:
+----------------------
+Project name          = auto
+Type                  = mito
+Genome range          = 12000-22000
+K-mer                 = 39
+Max memory            = 90
+Extended log          = 0
+Save assembled reads  = no
+Seed Input            = /mnt/1f047a13-d132-4034-8d0e-b99fe08752cb/jfmclaughlin/panama_mito/auto/auto_ND2.fasta
+Reference sequence    = 
+Variance detection    = 
+Chloroplast sequence  = 
+
+Dataset 1:
+----------------------
+Read Length           = 151
+Insert size           = 300
+Platform              = illumina
+Single/Paired         = PE
+Combined reads        = 
+Forward reads         = /mnt/1f047a13-d132-4034-8d0e-b99fe08752cb/jfmclaughlin/panama_19July18/panama_genomes/auto/trim/auto_JMM957_trim-R1.fastq.gz
+Reverse reads         = /mnt/1f047a13-d132-4034-8d0e-b99fe08752cb/jfmclaughlin/panama_19July18/panama_genomes/auto/trim/auto_JMM957_trim-R2.fastq.gz
+
+Heteroplasmy:
+-----------------------
+Heteroplasmy          = 
+HP exclude list       = 
+PCR-free              = 
+
+Optional:
+----------------------
+Insert size auto      = yes
+Insert range          = 1.9
+Insert range strict   = 1.3
+Use Quality Scores    = no
+
+Subsampled fraction: 99.58 %
+Forward reads without pair: 716965
+Reverse reads without pair: 219838
+
+Retrieve Seed...
+
+Initial read retrieved successfully: CCCCTACTAATAAACCCACAAGCCAAACTAATTTCTACCCTAAGCCTGACCCTAGGAACCACCATTACAATCACAAGTAATCACTGAACAATGGCATGAACTGGCCTAGAAATTAATACTCTAGCTATCCTCCC
+
+Start Assembly...
+
+
+-----------------Assembly 1 finished successfully: The genome has been circularized-----------------
+
+Contig 1                  : 16984 bp
+
+Total contigs              : 1
+Largest contig             : 16984 bp
+Smallest contig            : 16984 bp
+Average insert size        : 251 bp
+
+
+-----------------------------------------Input data metrics-----------------------------------------
+
+Total reads                : 118910240
+Aligned reads              : 2098746
+Assembled reads            : 1581314
+Organelle genome %         : 1.76 %
+Average organelle coverage : 18658
+
+-----------------------------------------------------------------------------------------------------
+
